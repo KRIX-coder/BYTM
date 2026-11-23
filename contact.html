@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact - BYTM</title>
+<meta name="description" content="Get in touch with BYTM for free trademark consultation. Reach us via form, email, phone, or WhatsApp."/>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo"><img src="assets/logo.svg" alt="BYTM"/><span>BYTM</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contactForm" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Send Inquiry</a>
+      <button class="hamburger" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow reveal">Contact Us</span>
+    <h1 class="reveal delay-1">Let's Talk About <span style="background:var(--grad-brand);-webkit-background-clip:text;background-clip:text;color:transparent;">Your Brand</span>.</h1>
+    <p class="reveal delay-2">Send us an inquiry and continue the conversation on WhatsApp - we typically respond within 15 minutes during business hours.</p>
+    <div class="breadcrumb reveal delay-3"><a href="index.html">Home</a><span class="sep">/</span><span>Contact</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+
+    <div class="contact-info reveal">
+      <h3>Reach Out Directly</h3>
+      <p>Prefer a quick chat? Pick any channel below and we'll respond within minutes.</p>
+
+      <div class="contact-list">
+        <a href="#" data-wa-link class="contact-item" style="color:inherit;">
+          <div class="icon" style="background:#25D366;"><i class="fa-brands fa-whatsapp"></i></div>
+          <div><strong>WhatsApp</strong><span>Chat with us - fastest response</span></div>
+        </a>
+        <a href="mailto:hello@bytm.in" class="contact-item" style="color:inherit;">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <div><strong>Email</strong><span>hello@bytm.in</span></div>
+        </a>
+        <a href="tel:+919847868919" class="contact-item" style="color:inherit;">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <div><strong>Phone</strong><span>+91 98478 68919</span></div>
+        </a>
+        <div class="contact-item">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><strong>Office</strong><span>Serving clients across India & globally</span></div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><i class="fa-regular fa-clock"></i></div>
+          <div><strong>Hours</strong><span>Mon–Sat, 9:30 AM – 7:00 PM IST</span></div>
+        </div>
+      </div>
+
+      <div style="margin-top:2rem;padding:1.5rem;background:var(--green-50);border-radius:var(--radius-md);border:1px solid var(--green-300);">
+        <div style="display:flex;gap:.75rem;align-items:flex-start;">
+          <i class="fa-solid fa-shield-halved" style="color:var(--green-800);font-size:1.2rem;margin-top:3px;"></i>
+          <div>
+            <strong style="display:block;color:var(--green-900);margin-bottom:.3rem;">100% Confidential</strong>
+            <span style="color:var(--ink-700);font-size:.9rem;">Your brand details stay with us. Covered under attorney-client privilege.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form id="contactForm" class="contact-form reveal delay-1">
+      <h3>Send Us a Message</h3>
+      <p>Fill in the form - we'll continue the conversation on WhatsApp.</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input id="name" name="name" type="text" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="+91 98478 68919">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input id="email" name="email" type="email" placeholder="you@brand.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="service">Service You're Interested In</label>
+        <select id="service" name="service">
+          <option value="">- Select a service -</option>
+          <option>Trademark Search</option>
+          <option>Trademark Registration</option>
+          <option>Brand Monitoring</option>
+          <option>Objection / Opposition Reply</option>
+          <option>International Filing</option>
+          <option>Renewal / Assignment</option>
+          <option>Copyright / Patent / Design</option>
+          <option>Other / Consultation</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message *</label>
+        <textarea id="message" name="message" placeholder="Tell us about your brand and what you need…" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">
+        <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+      </button>
+
+      <p class="form-note"><i class="fa-brands fa-whatsapp"></i> Your message opens WhatsApp with details pre-filled - just hit send.</p>
+    </form>
+
+  </div>
+</section>
+
+<!-- MAP PLACEHOLDER -->
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="reveal" style="border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-md);background:linear-gradient(135deg,#1aa84a 0%, #0b3f1a 100%);min-height:380px;position:relative;display:grid;place-items:center;color:#fff;text-align:center;padding:3rem 2rem;">
+      <div style="position:absolute;inset:0;background:radial-gradient(500px 300px at 30% 30%, rgba(255,255,255,.18), transparent 60%),radial-gradient(400px 300px at 80% 80%, rgba(139,198,63,.2), transparent 60%);"></div>
+      <div style="position:relative;z-index:1;max-width:600px;">
+        <i class="fa-solid fa-globe" style="font-size:3rem;margin-bottom:1rem;opacity:.9;"></i>
+        <h2 style="color:#fff;margin-bottom:.75rem;">Serving Clients Worldwide</h2>
+        <p style="color:rgba(255,255,255,.85);margin-bottom:2rem;">From India to the US, UK, EU, UAE and beyond - BYTM protects brands in 100+ jurisdictions.</p>
+        <a href="#" data-wa-link class="btn btn-white"><i class="fa-brands fa-whatsapp"></i> Start a Conversation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="assets/logo.svg" alt="BYTM"/><span>BYTM</span></a>
+        <p>India's trusted partner for trademark search, registration, and brand protection.</p>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="process.html">Our Process</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">Trademark Search</a></li><li><a href="services.html">Registration</a></li><li><a href="services.html">Brand Monitoring</a></li><li><a href="services.html">International Filing</a></li><li><a href="services.html">Renewals</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:hello@bytm.in"><i class="fa-solid fa-envelope"></i> hello@bytm.in</a></li><li><a href="tel:+919847868919"><i class="fa-solid fa-phone"></i> +91 98478 68919</a></li><li><a href="#" data-wa-link><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> BYTM. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Service</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float" data-wa-link aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="wa-tooltip">Chat with us on WhatsApp</span>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>

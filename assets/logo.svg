@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8BC63F"/>
+      <stop offset="100%" stop-color="#128C3F"/>
+    </linearGradient>
+    <radialGradient id="lens" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#9FE16A" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#2FA84A" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0B6B2A" stop-opacity="0.75"/>
+    </radialGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="70" ry="70" fill="url(#bg)"/>
+  <g fill="#ffffff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700">
+    <text x="110" y="310" font-size="150" letter-spacing="2">BY</text>
+  </g>
+  <g transform="translate(290,180)">
+    <circle cx="80" cy="80" r="92" fill="url(#lens)" stroke="#ffffff" stroke-width="12"/>
+    <path d="M150 150 L205 205" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="150" cy="150" r="9" fill="#ffffff"/>
+    <path d="M30 40 Q 55 20 90 30" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <text x="38" y="105" fill="#ffffff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="78" letter-spacing="2">TM</text>
+  </g>
+</svg>
